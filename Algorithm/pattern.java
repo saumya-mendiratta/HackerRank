@@ -8,7 +8,7 @@ public class pattern {
 		int nsp = n - 1;
 		int nst = 1;
 
-		while (row <= n-1) {
+		while (row <= 2*n-1) {
 			int csp = 1, cst = 1;
 			while (csp <= nsp) {
 				System.out.print(" ");
