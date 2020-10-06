@@ -3,7 +3,14 @@ package Data_structures;
 public class reverse_arr {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		
+		int[] arr = {1,2,3,4,5};
+		int[] ar= reverseArray(arr);
+		
+		for (int i = 0; i < ar.length; i++) {
+			System.out.println(ar[i]);
+		}
 
 	}
 
@@ -11,7 +18,7 @@ public class reverse_arr {
 
 		int[] arr = new int[a.length];
 
-		for (int i = a.length, j = 0; i >= 0; i--, j++)
+		for (int i = a.length - 1, j = 0; i >= 0; i--, j++)
 			arr[j] = a[i];
 
 		return arr;
