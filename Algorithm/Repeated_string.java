@@ -11,6 +11,7 @@ public class Repeated_string {
 		String s = in.next();
 		long n = in.nextLong();
 		long count = 0;
+		
 		for (char c : s.toCharArray())
 			if (c == 'a')
 				count++;
