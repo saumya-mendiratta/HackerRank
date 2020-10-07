@@ -14,6 +14,7 @@ public class pattern {
 				System.out.print(" ");
 				csp++;
 			}
+			
 			while (cst <= nst) {
 				System.out.print("*");
 				cst = cst + 1;
