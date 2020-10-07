@@ -13,7 +13,6 @@ public class candies {
 	public static long candies(int n, int[] arr) {
 
 		int[] strg = new int[n];
-
 		Arrays.fill(strg, 1);
 
 		for (int i = 1; i < n; i++) {
