@@ -42,7 +42,6 @@ public class Picking_Numbers {
 		}
 	     // sorting arraylist needs to be done first 
 		
-		
 		int max =0;
 		for(int i = 1 ; i < list.size() ; i++) {
 			
