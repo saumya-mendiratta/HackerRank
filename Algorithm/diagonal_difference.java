@@ -4,8 +4,7 @@ import java.util.Scanner;
 public class diagonal_difference {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
 		Scanner scan = new Scanner(System.in);
 		int[][] arr = {{1,2,3} , {4,5,6} , {9,8,9}};
 		//System.out.println(diagonalDifference(arr));
