@@ -24,12 +24,10 @@ public class Sherlock_and_array {
 	public static String balancedSums(ArrayList<Integer> arr) {
 		  
 		int left[] = new int[arr.size()];
-		//ArrayList<Integer> left = new ArrayList<Integer>();
 		left[0] = arr.get(0);
 		
 		
 		int[] right = new int[arr.size()];
-		//ArrayList<Integer> right = new ArrayList<Integer>();
 		right[arr.size() - 1] =  arr.get(arr.size() - 1);
 		
 		// left array
