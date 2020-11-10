@@ -3,8 +3,7 @@ package Algorithm;
 public class CamelCase {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
 		int n= camelcase("oneTwoThree");
 		System.out.println(n);
 	}
